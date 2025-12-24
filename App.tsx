@@ -53,7 +53,7 @@ const App: React.FC = () => {
   return (
     <div 
       ref={appRef}
-      className="min-h-screen text-slate-900 transition-colors duration-1000 ease-in-out relative overflow-hidden"
+      className="min-h-screen text-slate-900 transition-colors duration-1000 ease-in-out relative overflow-x-hidden"
       style={{ background: currentTheme.background }}
     >
       <ScrollString color={activeVibe === 'bold' ? '#99a' : '#ddd'} />
