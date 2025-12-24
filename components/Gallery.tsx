@@ -5,20 +5,28 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 const galleryData: GalleryItemProps[] = [
     {
-        image: 'https://images.unsplash.com/photo-1530103043960-ef38714abb15?auto=format&fit=crop&q=80&w=800',
+        image: 'https://raw.githubusercontent.com/Brock-Denton/balloon_images/main/public/E688255D-86D4-420A-A370-F34F4A5C056D.jpeg',
         tags: ['8ft Arch', 'Pastels']
     },
     {
-        image: 'https://images.unsplash.com/photo-1527529482837-4698179dc6ce?auto=format&fit=crop&q=80&w=800',
+        image: 'https://raw.githubusercontent.com/Brock-Denton/balloon_images/main/public/IMG_1438.jpeg',
         tags: ['Outdoor', 'Brights']
     },
     {
-        image: 'https://images.unsplash.com/photo-1478144592103-25821907077a?auto=format&fit=crop&q=80&w=800',
+        image: 'https://raw.githubusercontent.com/Brock-Denton/balloon_images/main/public/IMG_2713.jpeg',
         tags: ['Indoor', 'Neutrals']
     },
     {
-        image: 'https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&q=80&w=800',
+        image: 'https://raw.githubusercontent.com/Brock-Denton/balloon_images/main/public/IMG_7412.jpeg',
         tags: ['Corporate', '12ft']
+    },
+    {
+        image: 'https://raw.githubusercontent.com/Brock-Denton/balloon_images/main/public/IMG_7638.jpeg',
+        tags: ['Wedding', 'Elegant']
+    },
+    {
+        image: 'https://raw.githubusercontent.com/Brock-Denton/balloon_images/main/public/IMG_8551.jpeg',
+        tags: ['Birthday', 'Colorful']
     }
 ];
 
