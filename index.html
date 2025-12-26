@@ -15,24 +15,24 @@
             --accent: #4FC3F7;
         }
 
-        html {
+        html, body {
             margin: 0;
             padding: 0;
             width: 100%;
-            overflow-x: hidden; /* Prevents horizontal scroll from balloons */
-            height: auto;
+            height: 100%;
+            overflow-x: hidden;
+        }
+
+        /* Make ONLY body scroll (removes the extra html scrollbar) */
+        html {
+            overflow-y: hidden;
         }
 
         body {
-            margin: 0;
-            padding: 0;
-            width: 100%;
-            overflow-x: hidden; /* Prevents horizontal scroll from balloons */
+            overflow-y: auto;
+            -webkit-font-smoothing: antialiased;
             font-family: 'Plus Jakarta Sans', sans-serif;
             background: #ffffff;
-            -webkit-font-smoothing: antialiased;
-            height: auto;
-            min-height: 100vh;
         }
 
         .mono { font-family: 'Space Mono', monospace; }

@@ -7,7 +7,6 @@ import Gallery from './components/Gallery';
 import Features from './components/Features';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import ScrollString from './components/ScrollString';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
@@ -56,8 +55,6 @@ const App: React.FC = () => {
       className="min-h-screen text-slate-900 transition-colors duration-1000 ease-in-out relative overflow-x-hidden"
       style={{ background: currentTheme.background }}
     >
-      <ScrollString color={activeVibe === 'bold' ? '#99a' : '#ddd'} />
-      
       {/* Background Ambience */}
       <div 
         className="balloon-blur w-96 h-96 top-[-10%] left-[-10%] opacity-20 animate-pulse duration-[4000ms]"
